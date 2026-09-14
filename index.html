@@ -1,0 +1,1957 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio profesional Raudhatul Husna - Informatics Student & Web Developer">
+
+  <title>Raudhatul Husna | Developer Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- LOADER -->
+  <div class="loader" id="loader">
+    <div class="loader-card">
+      <div class="loader-logo">RH</div>
+      <span>Loading portfolio...</span>
+      <div class="loader-line"><i></i></div>
+    </div>
+  </div>
+
+  <!-- BACKGROUND -->
+  <div class="page-bg">
+    <span class="blob blob-one"></span>
+    <span class="blob blob-two"></span>
+    <span class="blob blob-three"></span>
+  </div>
+
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- NAVBAR -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+
+      <a href="#home" class="brand">
+        <span class="brand-mark">RH</span>
+        <span>Raudhatul<span>Husna</span></span>
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <a class="nav-link active" href="#home">Home</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#education">Education</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#experience">Experience</a>
+        <a class="nav-link" href="#activities">Activities</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+
+        <button
+          class="accent-btn"
+          id="accentBtn"
+          aria-label="Pilih warna aksen">
+          <i class="bi bi-palette"></i>
+        </button>
+
+        <a href="#resume" class="nav-cv">
+          Download CV
+          <i class="bi bi-arrow-up-right"></i>
+        </a>
+
+        <button
+          class="hamburger"
+          id="hamburger"
+          aria-label="Buka menu"
+          aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+      </div>
+
+      <!-- ACCENT PANEL -->
+      <div class="accent-panel" id="accentPanel">
+        <p>Accent Color</p>
+
+        <div class="accent-options">
+          <button data-accent="blue" class="accent-dot blue"></button>
+          <button data-accent="purple" class="accent-dot purple"></button>
+          <button data-accent="green" class="accent-dot green"></button>
+          <button data-accent="orange" class="accent-dot orange"></button>
+          <button data-accent="pink" class="accent-dot pink"></button>
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+
+  <main>
+
+    <!-- HOME -->
+    <section class="hero section" id="home">
+
+      <div class="container hero-grid">
+
+        <div class="hero-copy reveal-left">
+
+          <div class="eyebrow">
+            <span class="pulse"></span>
+            Available for learning & collaboration
+          </div>
+
+          <p class="hello">Hello, I'm</p>
+
+          <h1>
+            Raudhatul <span>Husna</span>
+          </h1>
+
+          <h2>
+            <span id="typingText">Web Developer</span>
+            <b class="typing-cursor">|</b>
+          </h2>
+
+          <p class="hero-desc">
+            Informatics Engineering student who enjoys building clean,
+            useful, responsive and modern digital experiences.
+          </p>
+
+          <div class="hero-buttons">
+
+            <a href="#projects" class="btn btn-primary">
+              Explore My Projects
+              <i class="bi bi-arrow-right"></i>
+            </a>
+
+            <a href="#resume" class="btn btn-outline">
+              Download CV
+              <i class="bi bi-download"></i>
+            </a>
+
+          </div>
+
+          <div class="social-row">
+
+            <span>Find me on</span>
+
+            <!-- GITHUB -->
+            <a
+              href="https://github.com/Raudhatul-husna/"
+              target="_blank"
+              rel="noopener"
+              aria-label="GitHub">
+              <i class="bi bi-github"></i>
+            </a>
+
+            <a href="#" aria-label="Instagram">
+              <i class="bi bi-instagram"></i>
+            </a>
+
+            <a href="#" aria-label="LinkedIn">
+              <i class="bi bi-linkedin"></i>
+            </a>
+
+            <a
+              href="https://wa.me/6285361972670"
+              target="_blank"
+              rel="noopener"
+              aria-label="WhatsApp">
+              <i class="bi bi-whatsapp"></i>
+            </a>
+
+          </div>
+
+        </div>
+
+
+        <!-- HERO IMAGE -->
+
+        <div class="hero-visual reveal-right">
+
+          <div class="orbit orbit-a"></div>
+          <div class="orbit orbit-b"></div>
+
+          <div class="float-card code-card">
+
+            <i class="bi bi-code-slash"></i>
+
+            <div>
+              <strong>Clean Code</strong>
+              <small>HTML • CSS • JS</small>
+            </div>
+
+          </div>
+
+          <div class="float-card design-card">
+
+            <i class="bi bi-bezier2"></i>
+
+            <div>
+              <strong>Creative UI</strong>
+              <small>Simple & modern</small>
+            </div>
+
+          </div>
+
+          <div class="profile-frame">
+
+            <div class="profile-glow"></div>
+
+            <div class="profile-placeholder">
+
+              <img
+                src="assets/images/profile.jpeg"
+                alt="Foto Profil Raudhatul Husna"
+                loading="eager">
+
+            </div>
+
+            <div class="profile-badge">
+              <i class="bi bi-patch-check-fill"></i>
+              Informatics Student
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- STATS -->
+
+      <div class="container stats-wrap reveal-up">
+
+        <div class="stats-card">
+
+          <div class="stat">
+            <strong class="counter" data-target="3">0</strong>
+            <span>Projects</span>
+          </div>
+
+          <div class="stat">
+            <strong class="counter" data-target="7">0</strong>
+            <span>Technologies</span>
+          </div>
+
+          <div class="stat">
+            <strong class="counter" data-target="5">0</strong>
+            <span>Activities</span>
+          </div>
+
+          <div class="stat">
+            <strong class="counter" data-target="4">0</strong>
+            <span>Semester Journey</span>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+    <section class="section section-soft" id="about">
+
+      <div class="container">
+
+        <div class="section-heading reveal-up">
+
+          <span>01 — About Me</span>
+
+          <h2>
+            Turning ideas into
+            <em>digital experiences.</em>
+          </h2>
+
+          <p>
+            Belajar teknologi, membuat proyek, lalu terus berkembang.
+          </p>
+
+        </div>
+
+
+        <div class="about-grid">
+
+          <div class="about-photo reveal-left">
+
+            <div class="photo-box">
+
+              <img
+                src="assets/images/profile.jpeg"
+                alt="Raudhatul Husna"
+                loading="lazy">
+
+              <div class="photo-label">
+                <i class="bi bi-person"></i>
+                Raudhatul Husna
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <div class="about-content reveal-right">
+
+            <div class="about-intro">
+
+              <h3>Informatics Engineering Student</h3>
+
+              <p>
+                Halo, saya Raudhatul Husna, mahasiswa Teknik Informatika
+                yang memiliki passion dalam dunia teknologi dan pengembangan
+                produk digital.
+              </p>
+
+              <p>
+                Saya tertarik pada Web Development, UI/UX Design, Database,
+                dan Software Development. Saya menikmati proses mengubah ide
+                menjadi website yang modern, responsif, dan mudah digunakan.
+              </p>
+
+              <p>
+                Saat ini saya terus mengembangkan kemampuan melalui proyek,
+                tugas perkuliahan, dan eksplorasi teknologi baru. Bagi saya,
+                setiap proyek adalah kesempatan untuk belajar, berkembang,
+                dan menghasilkan karya yang lebih baik.
+              </p>
+
+            </div>
+
+
+            <div class="info-grid">
+
+              <div>
+                <span>Education</span>
+                <strong>Universitas Jabal Ghafur</strong>
+              </div>
+
+              <div>
+                <span>Major</span>
+                <strong>Teknik Informatika</strong>
+              </div>
+
+              <div>
+                <span>Focus</span>
+                <strong>Web & Software Development</strong>
+              </div>
+
+              <div>
+                <span>Goal</span>
+                <strong>Web / Application Developer</strong>
+              </div>
+
+            </div>
+
+
+            <p class="journey">
+              <i class="bi bi-stars"></i>
+              Learning journey:
+              HTML → CSS → JavaScript → PHP → MySQL → UI/UX → RPL Projects.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <!-- CAPABILITIES -->
+
+        <div class="capabilities">
+
+          <div class="mini-heading reveal-up">
+            <span>What I Can Do</span>
+          </div>
+
+          <div class="cap-grid">
+
+            <article class="cap-card reveal-up">
+
+              <div class="icon-box">
+                <i class="bi bi-window-stack"></i>
+              </div>
+
+              <h3>Web Development</h3>
+
+              <p>
+                Membangun website responsive dengan struktur yang rapi
+                dan interaktif.
+              </p>
+
+            </article>
+
+
+            <article class="cap-card reveal-up">
+
+              <div class="icon-box">
+                <i class="bi bi-palette2"></i>
+              </div>
+
+              <h3>UI/UX Design</h3>
+
+              <p>
+                Membuat tampilan sederhana, nyaman digunakan dan
+                konsisten secara visual.
+              </p>
+
+            </article>
+
+
+            <article class="cap-card reveal-up">
+
+              <div class="icon-box">
+                <i class="bi bi-database"></i>
+              </div>
+
+              <h3>Database Development</h3>
+
+              <p>
+                Mengenal perancangan database dan pengelolaan data
+                menggunakan MySQL.
+              </p>
+
+            </article>
+
+
+            <article class="cap-card reveal-up">
+
+              <div class="icon-box">
+                <i class="bi bi-cpu"></i>
+              </div>
+
+              <h3>Software Development</h3>
+
+              <p>
+                Menerapkan konsep pemrograman dan RPL untuk membuat
+                solusi digital.
+              </p>
+
+            </article>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- EDUCATION -->
+    <section class="section education-section" id="education">
+
+      <div class="container">
+
+        <div class="section-heading reveal-up">
+
+          <span>02 — Education</span>
+
+          <h2>
+            My education
+            <em>journey.</em>
+          </h2>
+
+          <p>
+            Perjalanan pendidikan dan proses pengembangan diri menuju
+            bidang Teknik Informatika.
+          </p>
+
+        </div>
+
+
+        <div class="education-timeline">
+
+          <article class="education-item reveal-left">
+
+            <div class="education-marker">
+              <span>01</span>
+            </div>
+
+            <div class="education-card">
+
+              <div class="education-icon">
+                <i class="bi bi-book"></i>
+              </div>
+
+              <div class="education-info">
+
+                <div class="education-top">
+
+                  <span class="education-level">
+                    SEKOLAH DASAR
+                  </span>
+
+                  <span class="education-status">
+                    Pendidikan Dasar
+                  </span>
+
+                </div>
+
+                <h3>SD</h3>
+
+                <h4>SD N 1 Keumala</h4>
+
+                <p>
+                  Menempuh pendidikan dasar sebagai tahap awal dalam
+                  membangun pengetahuan dan kemampuan belajar.
+                </p>
+
+              </div>
+
+            </div>
+
+          </article>
+
+
+          <article class="education-item reveal-right">
+
+            <div class="education-marker">
+              <span>02</span>
+            </div>
+
+            <div class="education-card">
+
+              <div class="education-icon">
+                <i class="bi bi-journal-bookmark"></i>
+              </div>
+
+              <div class="education-info">
+
+                <div class="education-top">
+
+                  <span class="education-level">
+                    SEKOLAH MENENGAH PERTAMA
+                  </span>
+
+                  <span class="education-status">
+                    Pendidikan Menengah
+                  </span>
+
+                </div>
+
+                <h3>SMP</h3>
+
+                <h4>MtSs Nurul Hikmah Al-Aziziyah</h4>
+
+                <p>
+                  Melanjutkan pendidikan menengah dan mengembangkan
+                  kemampuan akademik maupun keterampilan lainnya.
+                </p>
+
+              </div>
+
+            </div>
+
+          </article>
+
+
+          <article class="education-item reveal-left">
+
+            <div class="education-marker">
+              <span>03</span>
+            </div>
+
+            <div class="education-card">
+
+              <div class="education-icon">
+                <i class="bi bi-mortarboard"></i>
+              </div>
+
+              <div class="education-info">
+
+                <div class="education-top">
+
+                  <span class="education-level">
+                    SEKOLAH MENENGAH ATAS
+                  </span>
+
+                  <span class="education-status">
+                    Pendidikan Menengah
+                  </span>
+
+                </div>
+
+                <h3>SMA / SMK</h3>
+
+                <h4>MAS Nurul Hikmah Al-Aziziyah</h4>
+
+                <p>
+                  Memperdalam pengetahuan dan mulai mengenal minat serta
+                  ketertarikan terhadap bidang teknologi.
+                </p>
+
+              </div>
+
+            </div>
+
+          </article>
+
+
+          <article class="education-item education-current reveal-right">
+
+            <div class="education-marker">
+              <span>04</span>
+            </div>
+
+            <div class="education-card">
+
+              <div class="education-icon">
+                <i class="bi bi-mortarboard-fill"></i>
+              </div>
+
+              <div class="education-info">
+
+                <div class="education-top">
+
+                  <span class="education-level">
+                    CURRENT EDUCATION
+                  </span>
+
+                  <span class="education-status current">
+                    <i class="bi bi-circle-fill"></i>
+                    Sedang Ditempuh
+                  </span>
+
+                </div>
+
+                <h3>Universitas Jabal Ghafur</h3>
+
+                <h4>S1 Teknik Informatika</h4>
+
+                <p>
+                  Saat ini menempuh pendidikan S1 Teknik Informatika
+                  dengan mempelajari web development, UI/UX, database,
+                  pemrograman, dan rekayasa perangkat lunak.
+                </p>
+
+                <div class="education-tags">
+
+                  <span>
+                    <i class="bi bi-code-slash"></i>
+                    Web Development
+                  </span>
+
+                  <span>
+                    <i class="bi bi-palette"></i>
+                    UI/UX
+                  </span>
+
+                  <span>
+                    <i class="bi bi-database"></i>
+                    Database
+                  </span>
+
+                  <span>
+                    <i class="bi bi-diagram-3"></i>
+                    RPL
+                  </span>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+
+      <div class="container">
+
+        <div class="section-heading reveal-up">
+
+          <span>03 — Skills</span>
+
+          <h2>
+            Tools I use to
+            <em>build.</em>
+          </h2>
+
+          <p>
+            Skill yang sedang dipelajari dan dikembangkan melalui proyek.
+          </p>
+
+        </div>
+
+
+        <div class="skills-layout">
+
+          <div class="skill-group reveal-left">
+
+            <div class="skill-title">
+              <i class="bi bi-braces"></i>
+              <h3>Programming</h3>
+            </div>
+
+            <div class="skill-item">
+              <div>
+                <span>HTML</span>
+                <b>90%</b>
+              </div>
+              <div class="progress">
+                <i style="--value:90%"></i>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div>
+                <span>CSS</span>
+                <b>88%</b>
+              </div>
+              <div class="progress">
+                <i style="--value:88%"></i>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div>
+                <span>JavaScript</span>
+                <b>72%</b>
+              </div>
+              <div class="progress">
+                <i style="--value:72%"></i>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div>
+                <span>PHP</span>
+                <b>70%</b>
+              </div>
+              <div class="progress">
+                <i style="--value:70%"></i>
+              </div>
+            </div>
+
+          </div>
+
+
+          <div class="skill-group reveal-up">
+
+            <div class="skill-title">
+              <i class="bi bi-database-check"></i>
+              <h3>Database</h3>
+            </div>
+
+            <div class="skill-item">
+
+              <div>
+                <span>MySQL</span>
+                <b>75%</b>
+              </div>
+
+              <div class="progress">
+                <i style="--value:75%"></i>
+              </div>
+
+            </div>
+
+            <div class="tech-chips">
+
+              <span>
+                <i class="bi bi-table"></i>
+                Relational DB
+              </span>
+
+              <span>
+                <i class="bi bi-diagram-3"></i>
+                ERD
+              </span>
+
+            </div>
+
+          </div>
+
+
+          <div class="skill-group reveal-right">
+
+            <div class="skill-title">
+              <i class="bi bi-vector-pen"></i>
+              <h3>Design</h3>
+            </div>
+
+            <div class="skill-item">
+
+              <div>
+                <span>UI/UX</span>
+                <b>78%</b>
+              </div>
+
+              <div class="progress">
+                <i style="--value:78%"></i>
+              </div>
+
+            </div>
+
+            <div class="skill-item">
+
+              <div>
+                <span>Figma</span>
+                <b>72%</b>
+              </div>
+
+              <div class="progress">
+                <i style="--value:72%"></i>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <!-- TOOLS -->
+
+        <div class="tools-row reveal-up">
+
+          <span class="tools-label">Tools</span>
+
+          <div class="tool">
+            <i class="bi bi-code-square"></i>
+            VS Code
+          </div>
+
+          <div class="tool">
+            <i class="bi bi-git"></i>
+            Git
+          </div>
+
+          <div class="tool">
+            <i class="bi bi-github"></i>
+            GitHub
+          </div>
+
+          <div class="tool">
+            <i class="bi bi-server"></i>
+            XAMPP
+          </div>
+
+          <div class="tool">
+            <i class="bi bi-bootstrap"></i>
+            Bootstrap
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- PROJECTS -->
+    <section class="section section-soft" id="projects">
+
+      <div class="container">
+
+        <div class="section-heading reveal-up">
+
+          <span>04 — Selected Projects</span>
+
+          <h2>
+            Things I've
+            <em>built.</em>
+          </h2>
+
+          <p>
+            Beberapa proyek kuliah dan latihan yang dapat terus dikembangkan.
+          </p>
+
+        </div>
+
+
+        <!-- FILTER -->
+
+        <div class="project-toolbar reveal-up">
+
+          <div class="filters" id="filters">
+
+            <button class="filter active" data-filter="all">
+              All
+            </button>
+
+            <button class="filter" data-filter="web">
+              Web Development
+            </button>
+
+            <button class="filter" data-filter="ui">
+              UI/UX
+            </button>
+
+            <button class="filter" data-filter="php">
+              PHP
+            </button>
+
+            <button class="filter" data-filter="js">
+              JavaScript
+            </button>
+
+            <button class="filter" data-filter="database">
+              Database
+            </button>
+
+          </div>
+
+
+          <label class="search-box">
+
+            <i class="bi bi-search"></i>
+
+            <input
+              id="projectSearch"
+              type="search"
+              placeholder="Search project...">
+
+          </label>
+
+        </div>
+
+
+        <!-- PROJECT GRID -->
+
+        <div class="project-grid" id="projectGrid">
+
+
+          <!-- SHOWROOM -->
+
+          <article
+            class="project-card reveal-up"
+            data-category="web php database"
+            data-search="showroom mobil php mysql website">
+
+            <div class="project-thumb thumb-car">
+
+              <span>
+                SHOWROOM<br>
+                <b>MOBIL</b>
+              </span>
+
+              <i class="bi bi-car-front"></i>
+
+            </div>
+
+
+            <div class="project-body">
+
+              <div class="project-top">
+
+                <span class="tag">
+                  PHP + Database
+                </span>
+
+                <button
+                  class="project-open"
+                  data-project="showroom"
+                  aria-label="Detail Showroom Mobil">
+
+                  <i class="bi bi-arrow-up-right"></i>
+
+                </button>
+
+              </div>
+
+
+              <h3>Showroom Mobil</h3>
+
+              <p>
+                Website katalog dan pengelolaan data showroom mobil
+                berbasis PHP dan MySQL.
+              </p>
+
+
+              <div class="project-tech">
+
+                <span>PHP</span>
+                <span>MySQL</span>
+                <span>CSS</span>
+
+              </div>
+
+            </div>
+
+          </article>
+
+
+          <!-- AUDRY DENTAL -->
+
+          <article
+            class="project-card reveal-up"
+            data-category="web js ui"
+            data-search="audry dental klinik gigi javascript ui ux">
+
+            <div class="project-thumb thumb-dental">
+
+              <span>
+                AUDRY<br>
+                <b>DENTAL</b>
+              </span>
+
+              <i class="bi bi-heart-pulse"></i>
+
+            </div>
+
+
+            <div class="project-body">
+
+              <div class="project-top">
+
+                <span class="tag">
+                  UI + JavaScript
+                </span>
+
+                <button
+                  class="project-open"
+                  data-project="dental"
+                  aria-label="Detail Audry Dental">
+
+                  <i class="bi bi-arrow-up-right"></i>
+
+                </button>
+
+              </div>
+
+
+              <h3>Audry Dental</h3>
+
+              <p>
+                Website klinik gigi dengan tampilan modern,
+                informatif dan responsive.
+              </p>
+
+
+              <div class="project-tech">
+
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+
+              </div>
+
+            </div>
+
+          </article>
+
+
+          <!-- LUMÉA BEAUTY & SPA -->
+
+          <article
+            class="project-card reveal-up"
+            data-category="web js ui"
+            data-search="lumea beauty spa beauty spa website javascript ui ux">
+
+            <div class="project-thumb thumb-placeholder">
+
+              <span>
+                LUMÉA<br>
+                <b>BEAUTY & SPA</b>
+              </span>
+
+              <i class="bi bi-stars"></i>
+
+            </div>
+
+
+            <div class="project-body">
+
+              <div class="project-top">
+
+                <span class="tag">
+                  Web + UI/UX
+                </span>
+
+                <button
+                  class="project-open"
+                  data-project="lumea"
+                  aria-label="Detail LUMÉA Beauty & Spa">
+
+                  <i class="bi bi-arrow-up-right"></i>
+
+                </button>
+
+              </div>
+
+
+              <h3>LUMÉA Beauty & Spa</h3>
+
+              <p>
+                Website Beauty & Spa dengan konsep modern,
+                elegan dan responsive.
+              </p>
+
+
+              <div class="project-tech">
+
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+
+              </div>
+
+            </div>
+
+          </article>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- EXPERIENCE -->
+    <section class="section" id="experience">
+
+      <div class="container">
+
+        <div class="section-heading reveal-up">
+
+          <span>05 — Experience</span>
+
+          <h2>
+            My learning
+            <em>timeline.</em>
+          </h2>
+
+          <p>
+            Perjalanan belajar dan pengalaman proyek, tanpa
+            mengada-adakan pengalaman kerja.
+          </p>
+
+        </div>
+
+
+        <div class="timeline-tabs reveal-up" id="timelineTabs">
+
+          <button class="active" data-timeline="all">
+            All
+          </button>
+
+          <button data-timeline="kuliah">
+            Project Kuliah
+          </button>
+
+          <button data-timeline="pelatihan">
+            Pelatihan
+          </button>
+
+          <button data-timeline="kampus">
+            Kegiatan Kampus
+          </button>
+
+          <button data-timeline="organisasi">
+            Organisasi
+          </button>
+
+          <button data-timeline="skill">
+            Pengembangan Skill
+          </button>
+
+        </div>
+
+
+        <div class="timeline">
+
+          <div class="timeline-line"></div>
+
+
+          <article
+            class="timeline-item reveal-left"
+            data-type="kuliah">
+
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-card">
+
+              <span>PROJECT KULIAH</span>
+              <small>2026</small>
+
+              <h3>
+                RPL 2 — Personal Portfolio
+              </h3>
+
+              <p>
+                Menerapkan HTML, CSS dan JavaScript untuk membangun
+                portfolio developer yang responsive dan interaktif.
+              </p>
+
+            </div>
+
+          </article>
+
+
+          <article
+            class="timeline-item reveal-right"
+            data-type="skill">
+
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-card">
+
+              <span>PENGEMBANGAN SKILL</span>
+              <small>Ongoing</small>
+
+              <h3>
+                Web Development Journey
+              </h3>
+
+              <p>
+                Memperkuat dasar HTML, CSS, JavaScript, PHP dan
+                database melalui latihan serta proyek.
+              </p>
+
+            </div>
+
+          </article>
+
+
+          <article
+            class="timeline-item reveal-left"
+            data-type="kuliah">
+
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-card">
+
+              <span>PROJECT KULIAH</span>
+              <small>2026</small>
+
+              <h3>
+                Database & Website Project
+              </h3>
+
+              <p>
+                Mempelajari hubungan website dengan database
+                menggunakan PHP dan MySQL.
+              </p>
+
+            </div>
+
+          </article>
+
+
+          <article
+            class="timeline-item reveal-right"
+            data-type="kuliah">
+
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-card">
+
+              <span>PROJECT & PRAKTIKUM</span>
+              <small>2026</small>
+
+              <h3>
+                Praktikum & Project Informatika
+              </h3>
+
+              <p>
+                Mengerjakan berbagai tugas praktikum dan project
+                perkuliahan seperti pengembangan website, database,
+                pemrograman, dan rekayasa perangkat lunak.
+              </p>
+
+            </div>
+
+          </article>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ACTIVITIES -->
+    <section class="section section-soft" id="activities">
+
+      <div class="container">
+
+        <div class="section-heading reveal-up">
+
+          <span>06 — Activities & Learning</span>
+
+          <h2>
+            Always
+            <em>learning.</em>
+          </h2>
+
+          <p>
+            Aktivitas belajar dan eksplorasi teknologi yang bisa
+            kamu update kapan saja.
+          </p>
+
+        </div>
+
+
+        <div class="activity-grid">
+
+
+          <article class="activity-card reveal-up">
+
+            <div class="activity-icon">
+              <i class="bi bi-laptop"></i>
+            </div>
+
+            <span>LEARNING</span>
+
+            <h3>
+              Belajar Web Development
+            </h3>
+
+            <p>
+              Latihan membuat layout, responsive design,
+              JavaScript interaction dan komponen website.
+            </p>
+
+          </article>
+
+
+          <article class="activity-card reveal-up">
+
+            <div class="activity-icon">
+              <i class="bi bi-diagram-3"></i>
+            </div>
+
+            <span>ACADEMIC</span>
+
+            <h3>
+              Project Rekayasa Perangkat Lunak
+            </h3>
+
+            <p>
+              Mempelajari analisis kebutuhan, pemodelan sistem
+              dan proses pengembangan perangkat lunak.
+            </p>
+
+          </article>
+
+
+          <article class="activity-card reveal-up">
+
+            <div class="activity-icon">
+              <i class="bi bi-database"></i>
+            </div>
+
+            <span>DATABASE</span>
+
+            <h3>
+              Eksplorasi MySQL
+            </h3>
+
+            <p>
+              Belajar membuat tabel, relasi dan menghubungkan
+              database dengan aplikasi web.
+            </p>
+
+          </article>
+
+
+          <article class="activity-card reveal-up">
+
+            <div class="activity-icon">
+              <i class="bi bi-bezier"></i>
+            </div>
+
+            <span>DESIGN</span>
+
+            <h3>
+              UI/UX Exploration
+            </h3>
+
+            <p>
+              Mengeksplorasi typography, spacing, color system
+              dan user-friendly interface.
+            </p>
+
+          </article>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- RESUME -->
+    <section class="section resume-section" id="resume">
+
+      <div class="container">
+
+        <div class="resume-card reveal-up">
+
+          <div>
+
+            <span class="eyebrow">
+              RESUME / CV
+            </span>
+
+            <h2>
+              Let's keep building<br>
+              <em>something meaningful.</em>
+            </h2>
+
+            <p>
+              CV dapat diganti dengan file PDF milik kamu di
+              <b>assets/cv/CV.pdf</b>.
+            </p>
+
+          </div>
+
+
+          <div class="resume-actions">
+
+            <button
+              class="btn btn-white"
+              id="previewCv">
+
+              <i class="bi bi-eye"></i>
+              Preview CV
+
+            </button>
+
+
+            <a
+              class="btn btn-ghost-white"
+              href="assets/cv/CV.pdf"
+              download>
+
+              <i class="bi bi-download"></i>
+              Download CV
+
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section class="section contact-section" id="contact">
+
+      <div class="container">
+
+        <div class="section-heading reveal-up">
+
+          <span>08 — Contact</span>
+
+          <h2>
+            Have an idea?
+            <em>Let's talk.</em>
+          </h2>
+
+          <p>
+            Hubungi saya melalui WhatsApp atau media sosial.
+          </p>
+
+        </div>
+
+
+        <div class="contact-grid">
+
+
+          <div class="contact-info reveal-left">
+
+
+            <a
+              href="mailto:hraudhatul08@gmail.com"
+              class="contact-item">
+
+              <i class="bi bi-envelope"></i>
+
+              <div>
+                <span>Email</span>
+                <strong>
+                  hraudhatul08@gmail.com
+                </strong>
+              </div>
+
+            </a>
+
+
+            <a
+              href="https://wa.me/6285361972670"
+              target="_blank"
+              rel="noopener"
+              class="contact-item">
+
+              <i class="bi bi-whatsapp"></i>
+
+              <div>
+                <span>WhatsApp</span>
+                <strong>
+                  +6285361972670
+                </strong>
+              </div>
+
+            </a>
+
+
+            <!-- GITHUB -->
+            <a
+              href="https://github.com/Raudhatul-husna/"
+              target="_blank"
+              rel="noopener"
+              class="contact-item">
+
+              <i class="bi bi-github"></i>
+
+              <div>
+                <span>GitHub</span>
+                <strong>
+                  github.com/Raudhatul-husna
+                </strong>
+              </div>
+
+            </a>
+
+
+            <a
+              href="#"
+              class="contact-item">
+
+              <i class="bi bi-instagram"></i>
+
+              <div>
+                <span>Instagram</span>
+                <strong>
+                  @username
+                </strong>
+              </div>
+
+            </a>
+
+
+            <a
+              href="#"
+              class="contact-item">
+
+              <i class="bi bi-linkedin"></i>
+
+              <div>
+                <span>LinkedIn</span>
+                <strong>
+                  linkedin.com/in/username
+                </strong>
+              </div>
+
+            </a>
+
+
+          </div>
+
+
+          <form
+            class="contact-form reveal-right"
+            id="contactForm">
+
+            <div class="form-row">
+
+              <label>
+                Nama
+                <input
+                  type="text"
+                  id="name"
+                  placeholder="Nama kamu"
+                  required>
+              </label>
+
+
+              <label>
+                Email
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="email@example.com"
+                  required>
+              </label>
+
+            </div>
+
+
+            <label>
+              Subject
+
+              <input
+                type="text"
+                id="subject"
+                placeholder="Project / Collaboration"
+                required>
+
+            </label>
+
+
+            <label>
+              Message
+
+              <textarea
+                id="message"
+                rows="6"
+                placeholder="Tulis pesan..."
+                required></textarea>
+
+            </label>
+
+
+            <button
+              class="btn btn-primary"
+              type="submit">
+
+              Send Message
+              <i class="bi bi-send"></i>
+
+            </button>
+
+
+            <p
+              class="form-status"
+              id="formStatus">
+            </p>
+
+          </form>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+
+  <footer class="footer">
+
+    <div class="container footer-grid">
+
+
+      <div>
+
+        <a href="#home" class="brand">
+
+          <span class="brand-mark">
+            RH
+          </span>
+
+          <span>
+            Raudhatul<span>Husna</span>
+          </span>
+
+        </a>
+
+        <p>
+          Informatics Student & Web Developer.
+        </p>
+
+      </div>
+
+
+      <div>
+
+        <h4>
+          Quick Links
+        </h4>
+
+        <div class="footer-links">
+
+          <a href="#about">About</a>
+          <a href="#education">Education</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+
+        </div>
+
+      </div>
+
+
+      <div>
+
+        <h4>
+          Social
+        </h4>
+
+        <div class="footer-social">
+
+          <!-- GITHUB -->
+          <a
+            href="https://github.com/Raudhatul-husna/"
+            target="_blank"
+            rel="noopener">
+
+            <i class="bi bi-github"></i>
+
+          </a>
+
+          <a href="#">
+            <i class="bi bi-instagram"></i>
+          </a>
+
+          <a href="#">
+            <i class="bi bi-linkedin"></i>
+          </a>
+
+          <a
+            href="https://wa.me/6285361972670"
+            target="_blank"
+            rel="noopener">
+
+            <i class="bi bi-whatsapp"></i>
+
+          </a>
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+
+    <div class="container footer-bottom">
+
+      <span>
+        ©
+        <span id="year"></span>
+        Raudhatul Husna. All rights reserved.
+      </span>
+
+      <span>
+        Designed & Developed by
+        <b>Raudhatul Husna</b>
+      </span>
+
+    </div>
+
+  </footer>
+
+
+  <!-- BACK TO TOP -->
+
+  <button
+    class="back-top"
+    id="backTop"
+    aria-label="Kembali ke atas">
+
+    <i class="bi bi-arrow-up"></i>
+
+  </button>
+
+
+  <!-- PROJECT MODAL -->
+
+  <div class="modal" id="projectModal">
+
+    <div class="modal-box project-modal">
+
+      <button class="modal-close">
+        <i class="bi bi-x-lg"></i>
+      </button>
+
+
+      <div
+        class="modal-project-image"
+        id="modalProjectImage">
+      </div>
+
+
+      <div class="modal-content">
+
+        <span
+          class="tag"
+          id="modalProjectTag">
+          Project
+        </span>
+
+
+        <h2 id="modalProjectTitle">
+          Project
+        </h2>
+
+
+        <p id="modalProjectDesc"></p>
+
+
+        <div class="detail-grid">
+
+
+          <div>
+            <span>Goal</span>
+            <p id="modalGoal"></p>
+          </div>
+
+
+          <div>
+            <span>Features</span>
+            <p id="modalFeatures"></p>
+          </div>
+
+
+          <div>
+            <span>Technologies</span>
+            <p id="modalTech"></p>
+          </div>
+
+
+          <div>
+            <span>Challenges & Solutions</span>
+            <p id="modalChallenge"></p>
+          </div>
+
+
+        </div>
+
+
+        <!-- TOMBOL DEMO -->
+
+        <div class="modal-actions">
+
+          <a
+            href="#"
+            class="btn btn-primary"
+            id="modalDemoButton"
+            target="_blank"
+            rel="noopener">
+
+            Live Demo
+            <i class="bi bi-box-arrow-up-right"></i>
+
+          </a>
+
+
+          <a
+            href="#"
+            class="btn btn-outline"
+            id="modalGithubButton"
+            target="_blank"
+            rel="noopener">
+
+            GitHub
+            <i class="bi bi-github"></i>
+
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- BLOG MODAL -->
+
+  <div class="modal" id="blogModal">
+
+    <div class="modal-box article-modal">
+
+      <button class="modal-close">
+        <i class="bi bi-x-lg"></i>
+      </button>
+
+      <div
+        class="article-cover"
+        id="articleCover">
+      </div>
+
+      <div class="modal-content">
+
+        <span
+          class="tag"
+          id="articleTag">
+        </span>
+
+        <h2 id="articleTitle"></h2>
+
+        <p id="articleText"></p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- CV MODAL -->
+
+  <div class="modal" id="cvModal">
+
+    <div class="modal-box cv-modal">
+
+      <button class="modal-close">
+
+        <i class="bi bi-x-lg"></i>
+
+      </button>
+
+
+      <div class="cv-placeholder">
+
+        <i class="bi bi-file-earmark-pdf"></i>
+
+        <h2>
+          CV Preview
+        </h2>
+
+        <p>
+          Letakkan CV asli kamu di:
+        </p>
+
+        <code>
+          assets/cv/cv.pdf
+        </code>
+
+
+        <a
+          href="assets/cv/cv.pdf"
+          download
+          class="btn btn-primary">
+
+          Download CV
+
+        </a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- JAVASCRIPT -->
+
+  <script src="script.js"></script>
+
+</body>
+</html>
